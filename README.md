@@ -61,7 +61,7 @@ Ensure you have the following installed:
 ### Example Data Model
 
 ```javascript
-const mongoose = require('mongoose');
+import mongoose from "mongoose"
 
 const UserSchema = new mongoose.Schema({
   name: {
@@ -79,6 +79,6 @@ const UserSchema = new mongoose.Schema({
   },
 }, { timestamps: true });
 
-module.exports = mongoose.model('User', UserSchema);
+export const User = mongoose.model('User', UserSchema);
 ```
 
