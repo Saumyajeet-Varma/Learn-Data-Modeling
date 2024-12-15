@@ -58,7 +58,7 @@ Ensure you have the following installed:
 1. Define your Mongoose models in the `models` folder.
 2. Customize and expand the project as needed.
 
-## Example Data Model
+### Example Data Model
 
 ```javascript
 const mongoose = require('mongoose');
