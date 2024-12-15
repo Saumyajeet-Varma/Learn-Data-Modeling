@@ -1,4 +1,4 @@
-# Data Modelling using Mongoose
+# Data Modeling using Mongoose
 
 A project demonstrating how to code data models using Mongoose in a Node.js application. <br>
 **Note:** This project uses Mongoose for defining data models only and it is not connect to a MongoDB database.
